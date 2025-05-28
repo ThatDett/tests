@@ -1,10 +1,10 @@
-/** Generated with odin version dev-2025-04 (vendor "odin") Windows_amd64 @ 2025-05-28 04:34:20.718621300 +0000 UTC */
+/** Generated with odin version dev-2025-04 (vendor "odin") Windows_amd64 @ 2025-05-28 04:50:36.313384400 +0000 UTC */
 var odin_pkg_data = {
 "packages": {
 	"game": {
 		"name": "game",
 		"collection": "game",
-		"path": "/ThatDet/tests/docs/game/",
+		"path": "/thatdett/tests/docs/game/",
 		"entities": [
 			{"kind": "t", "name": "Entity"},
 			{"kind": "t", "name": "Player"},

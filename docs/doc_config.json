@@ -5,12 +5,12 @@
 	"hide_base": true,
 	// If your docs are going to be on a subpath of your domain, for example: `name.github.io/repo`
 	// You can provide a url_prefix here to make the paths line up, if your docs will be at the root of the domain, leave this out.
-	"url_prefix": "/ThatDet/tests/docs",
+	"url_prefix": "/thatdett/tests/docs",
 	// This is where you define collections, you will probably have only one.
 	"collections": {
 		"tests": {
 			"name": "game",
-			"source_url": "https://github.com/ThatDet/blob/main",
+			"source_url": "https://github.com/thatdett/blob/main",
 			// This URL is the prefix of your collection, core will be at /core, vendor at /vendor.
 			// This is prefixed with the url_prefix field above if that is set.
 			"base_url": "/game",
@@ -19,7 +19,7 @@
 			"root_path": "../",
 			"license": {
 				"text": "BSD-3-Clause",
-				"url": "https://github.com/ThatDet/tests/tree/main/LICENSE"
+				"url": "https://github.com/thatdett/tests/tree/main/LICENSE"
 			},
 			// Configuration for the home page.
 			"home": {
