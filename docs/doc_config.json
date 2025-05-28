@@ -6,7 +6,7 @@
             "name": "game",
             "source_url": "https://github.com/ThatDett/tests/blob/main",
             "base_url": "/game",
-            "root_path": "../..",
+            "root_path": "../",
             "license": {
                 "text": "MIT",
                 "url": "https://github.com/ThatDett/tests/tree/main/LICENSE"
