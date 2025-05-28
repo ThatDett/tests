@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>package  - pkg.odin-lang.org</title>	<link rel="icon" href="/favicon.svg">
+	<title>game library - pkg.odin-lang.org</title>	<link rel="icon" href="/favicon.svg">
 	<link rel="stylesheet" type="text/css" href="https://odin-lang.org/scss/custom.min.css">
 	<link rel=stylesheet href="//odin-lang.org/lib/highlight/styles/github-dark.min.css">
 	<script src="//odin-lang.org/lib/highlight/highlight.min.js"></script>
@@ -87,30 +87,27 @@
 	</nav>
 </header>
 <main>
-<div class="container full-width">
-<div class="row odin-main my-4" id="pkg">
+<div class="container">
+<div class="row odin-main my-4">
 <nav id="pkg-sidebar" class="col-lg-2 odin-sidebar-border navbar-light sticky-top odin-below-navbar">
 <div class="py-3">
 <h4><a style="text-transform: capitalize; color: inherit;" href="/game">game Library</a></h4>
 <ul>
-<li class="nav-item"><a class="active" href="/game/"></a></li>
+<li class="nav-item"><a href="/game/tests">tests</a></li>
 </ul>
 </div>
 </nav>
-<article class="col-lg-8 p-4 documentation odin-article">
-<nav class="pkg-breadcrumb" aria-label="breadcrumb">
-<ol class="breadcrumb">
-<li class="breadcrumb-item"><a href="/game">game</a></li>
-</ol>
-</nav>
-<h1>package game<div class="doc-source"><a href="https://github.com/ThatDet/blob/main/"><em>Source</em></a></div></h1>
+<article class="col-lg-10 p-4">
+<article class="p-4">
+<header class="collection-header">
+<h1 style="text-transform: capitalize">game Library Collection</h1>
 <ul class="license">
 <li>License: <a href="https://github.com/ThatDet/tests/tree/main/LICENSE">BSD-3-Clause</a></li>
 <li>Repository: <a href="https://github.com/ThatDet/blob/main">https://github.com/ThatDet/blob/main</a></li>
 </ul>
 
 		<div class="odin-search-wrapper">
-			<input type="search" id="odin-search" class="odin-search-package" autocomplete="off" spellcheck="false" placeholder="Fuzzy Search...">
+			<input type="search" id="odin-search" class="odin-search-collection" autocomplete="off" spellcheck="false" placeholder="Fuzzy Search...">
 			<div class="odin-search-shortcut">
 				<div class="odin-search-key key-macos">⌘K</div>
 				<div class="odin-search-key key-windows">Ctrl+K</div>
@@ -121,122 +118,22 @@
 	
 <div id="odin-search-info">
 <div id="odin-search-time"></div>
-
-		<div id="odin-search-options">
-			<input type="checkbox" id="odin-search-filter" name="odin-search-filter">
-			<label for="odin-search-filter">Filter Results</label>
-		</div>
 </div>
 <ul id="odin-search-results"></ul>
-<div id="pkg-top">
-<div id="pkg-index">
-<h2>Index</h2>
-<div>
-<details class="doc-index" id="doc-index-Types" aria-labelledby="#doc-index-Types-header">
-<summary id="#doc-index-Types-header">
-Types (3)</summary>
-<ul>
-<li><a href="#Entity">Entity</a></li>
-<li><a href="#Player">Player</a></li>
-<li><a href="#Vector2">Vector2</a></li>
-</ul>
-</details>
-</div>
-<div>
-<details class="doc-index" id="doc-index-Constants" aria-labelledby="#doc-index-Constants-header">
-<summary id="#doc-index-Constants-header">
-Constants (0)</summary>
-<p class="pkg-empty-section">This section is empty.</p>
-</details>
-</div>
-<div>
-<details class="doc-index" id="doc-index-Variables" aria-labelledby="#doc-index-Variables-header">
-<summary id="#doc-index-Variables-header">
-Variables (0)</summary>
-<p class="pkg-empty-section">This section is empty.</p>
-</details>
-</div>
-<div>
-<details class="doc-index" id="doc-index-Procedures" aria-labelledby="#doc-index-Procedures-header">
-<summary id="#doc-index-Procedures-header">
-Procedures (1)</summary>
-<ul>
-<li><a href="#main">main</a></li>
-</ul>
-</details>
-</div>
-<div>
-<details class="doc-index" id="doc-index-Procedure Groups" aria-labelledby="#doc-index-Procedure Groups-header">
-<summary id="#doc-index-Procedure Groups-header">
-Procedure Groups (0)</summary>
-<p class="pkg-empty-section">This section is empty.</p>
-</details>
-</div>
-</div>
-</div>
-<section class="documentation">
-<h2 id="pkg-Types" class="pkg-header">Types</h2>
-<div class="pkg-entity">
-<h3 id="Entity"><span><a class="doc-id-link" href="#Entity">Entity<span class="a-hidden">&nbsp;¶</span></a></span><div class="doc-source"><a href="https://github.com/ThatDet/blob/main//main.odin#L7"><em>Source</em></a></div></h3>
-<div>
-<pre class="doc-code">Entity :: <span class="keyword-type">struct</span> {
-	position: <a class="code-typename" href="/game//#Vector2">Vector2</a>,
-}</pre>
-</div>
-</div>
-<div class="pkg-entity">
-<h3 id="Player"><span><a class="doc-id-link" href="#Player">Player<span class="a-hidden">&nbsp;¶</span></a></span><div class="doc-source"><a href="https://github.com/ThatDet/blob/main//main.odin#L12"><em>Source</em></a></div></h3>
-<div>
-<pre class="doc-code">Player :: <span class="keyword-type">struct</span> {
-	<span class="keyword-type">using</span> entity: <a class="code-typename" href="/game//#Entity">Entity</a>,
-	health: <a href="/base/builtin#uint"><span class="doc-builtin">uint</span></a>,
-}</pre>
-</div>
-</div>
-<div class="pkg-entity">
-<h3 id="Vector2"><span><a class="doc-id-link" href="#Vector2">Vector2<span class="a-hidden">&nbsp;¶</span></a></span><div class="doc-source"><a href="https://github.com/ThatDet/blob/main//main.odin#L5"><em>Source</em></a></div></h3>
-<div>
-<pre class="doc-code">Vector2 :: <span class="keyword-type">distinct</span> [2]<a href="/base/builtin#f32"><span class="doc-builtin">f32</span></a></pre>
-</div>
-</div>
-<h2 id="pkg-Constants" class="pkg-header">Constants</h2>
-<p class="pkg-empty-section">This section is empty.</p>
-<h2 id="pkg-Variables" class="pkg-header">Variables</h2>
-<p class="pkg-empty-section">This section is empty.</p>
-<h2 id="pkg-Procedures" class="pkg-header">Procedures</h2>
-<div class="pkg-entity">
-<h3 id="main"><span><a class="doc-id-link" href="#main">main<span class="a-hidden">&nbsp;¶</span></a></span><div class="doc-source"><a href="https://github.com/ThatDet/blob/main//main.odin#L18"><em>Source</em></a></div></h3>
-<div>
-<pre class="doc-code">main :: <span class="keyword-type">proc</span>() {…}</pre>
-</div>
-</div>
-<h2 id="pkg-Procedure Groups" class="pkg-header">Procedure Groups</h2>
-<p class="pkg-empty-section">This section is empty.</p>
-</section>
-<h2 id="pkg-source-files">Source Files</h2>
-<ul>
-<li><a href="https://github.com/ThatDet/blob/main//main.odin">main.odin</a></li>
-</ul>
-<h2 id="pkg-generation-information">Generation Information</h2>
-<p>Generated with <code>odin version dev-2025-04 (vendor "odin") Windows_amd64 @ 2025-05-28 04:19:46.044570000 +0000 UTC</code></p>
+</header>
 </article>
-<div class="col-lg-2 odin-toc-border navbar-light"><div class="sticky-top odin-below-navbar py-3">
-<nav id="TableOfContents">
-<ul>
-<li><a href="#pkg-Types">Types</a><ul>
-<li><a href="#Entity">Entity</a></li>
-<li><a href="#Player">Player</a></li>
-<li><a href="#Vector2">Vector2</a></li>
-</ul>
-</li>
-<li><a href="#pkg-Procedures">Procedures</a><ul>
-<li><a href="#main">main</a></li>
-</ul>
-</li>
-<li><a href="#pkg-source-files">Source Files</a></ul>
-</nav>
-</div></div>
-<script type="text/javascript">var odin_pkg_name = "game";</script>
+<hr class="collection-hr">
+<header>
+<h2><i class="bi bi-folder"></i>Directories</h2>
+</header>
+<div>
+	<table class="doc-directory mt-4 mb-4">
+		<tbody>
+<tr id="pkg-tests" class="directory-pkg"><td class="pkg-name"><a href="/game/tests">tests</a></td><td class="pkg-line pkg-line-doc">&nbsp;</td></tr>
+		</tbody>
+	</table>
+</div>
+</article>
 </div>
 
 </div>
