@@ -5,7 +5,7 @@
 	"hide_base": true,
 	// If your docs are going to be on a subpath of your domain, for example: `name.github.io/repo`
 	// You can provide a url_prefix here to make the paths line up, if your docs will be at the root of the domain, leave this out.
-	"url_prefix": "/ThatDett/tests/docs",
+	//"url_prefix": "/ThatDett/tests/docs",
 	// This is where you define collections, you will probably have only one.
 	"collections": {
 		"tests": {
