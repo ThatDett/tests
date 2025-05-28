@@ -16,7 +16,7 @@
 			"base_url": "/game",
 			// The root of the project, because you will probably be in a subdirectory, you can use a relative path.
 			// You can also use $ODIN_ROOT which is replaced by the directory that contains the Odin core and vendor collections.
-			"root_path": "../",
+			"root_path": "../../",
 			"license": {
 				"text": "BSD-3-Clause",
 				"url": "https://github.com/ThatDet/tests/tree/main/LICENSE"
@@ -29,7 +29,7 @@
 				// You can leave this empty and provide a "description" instead.
 				//"embed_readme": "../../README.md",
 				// Instead of embedding the readme, you can provide a simple description.
-				"description": "Hello Foo!"
+				"description": "Game"
 			}
 		}
 	}
