@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Packages - pkg.odin-lang.org</title>	<link rel="icon" href="/favicon.svg">
+	<title>main library - pkg.odin-lang.org</title>	<link rel="icon" href="/favicon.svg">
 	<link rel="stylesheet" type="text/css" href="https://odin-lang.org/scss/custom.min.css">
 	<link rel=stylesheet href="//odin-lang.org/lib/highlight/styles/github-dark.min.css">
 	<script src="//odin-lang.org/lib/highlight/highlight.min.js"></script>
@@ -88,19 +88,25 @@
 </header>
 <main>
 <div class="container">
-<div class="row odin-main">
-<nav class="col-lg-2 odin-sidebar-border navbar-light">
-<div class="sticky-top odin-below-navbar py-3">
-<ul class="nav nav-pills d-flex flex-column">
-<li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="/foo">main Library</a></li></ul>
+<div class="row odin-main my-4">
+<nav id="pkg-sidebar" class="col-lg-2 odin-sidebar-border navbar-light sticky-top odin-below-navbar">
+<div class="py-3">
+<h4><a style="text-transform: capitalize; color: inherit;" href="/foo">main Library</a></h4>
+<ul>
+</ul>
 </div>
 </nav>
-<article class="col-lg-8 p-4">
-<article><header>
-<h1 class="odin-package-header">Odin Packages</h1>
+<article class="col-lg-10 p-4">
+<article class="p-4">
+<header class="collection-header">
+<h1 style="text-transform: capitalize">main Library Collection</h1>
+<ul class="license">
+<li>License: <a href="https://github.com/odin-lang/Odin/tree/master/LICENSE">BSD-3-Clause</a></li>
+<li>Repository: <a href="https://github.com/ThatDet/tests">https://github.com/ThatDet/tests</a></li>
+</ul>
 
 		<div class="odin-search-wrapper">
-			<input type="search" id="odin-search" class="odin-search-all" autocomplete="off" spellcheck="false" placeholder="Fuzzy Search...">
+			<input type="search" id="odin-search" class="odin-search-collection" autocomplete="off" spellcheck="false" placeholder="Fuzzy Search...">
 			<div class="odin-search-shortcut">
 				<div class="odin-search-key key-macos">⌘K</div>
 				<div class="odin-search-key key-windows">Ctrl+K</div>
@@ -113,10 +119,17 @@
 <div id="odin-search-time"></div>
 </div>
 <ul id="odin-search-results"></ul>
-</header></article>
+</header>
+</article>
+<hr class="collection-hr">
+<header>
+<h2><i class="bi bi-folder"></i>Directories</h2>
+</header>
 <div>
-<div class="mt-5">
-<a href="/foo" class="link-primary text-decoration-node"><h3>Test</h3></a><p>Hello Foo!</p></div>
+	<table class="doc-directory mt-4 mb-4">
+		<tbody>
+		</tbody>
+	</table>
 </div>
 </article>
 </div>

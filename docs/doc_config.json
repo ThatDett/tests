@@ -8,9 +8,9 @@
 	//"url_prefix": "/repo",
 	// This is where you define collections, you will probably have only one.
 	"collections": {
-		"foo": {
-			"name": "foo",
-			"source_url": "https://github.com/odin-lang/Odin/blob/main",
+		"Test": {
+			"name": "main",
+			"source_url": "https://github.com/ThatDet/tests",
 			// This URL is the prefix of your collection, core will be at /core, vendor at /vendor.
 			// This is prefixed with the url_prefix field above if that is set.
 			"base_url": "/foo",
@@ -23,7 +23,7 @@
 			},
 			// Configuration for the home page.
 			"home": {
-				"title": "Foo",
+				"title": "Test",
 				// The program can turn a readme into HTML and put it on the homepage.
 				// The first h1 it finds will be replaced by one with a link and the title above.
 				// You can leave this empty and provide a "description" instead.
